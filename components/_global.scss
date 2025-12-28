@@ -18,7 +18,7 @@ body {
 .container {
   position: relative;
   display: grid;
-  row-gap: 11rem;
+  row-gap: 6rem;
   margin: 0 auto;
   max-width: calc(var(--container-width) + calc(var(--gutter) * 2));
   padding-inline: var(--gutter);
@@ -27,8 +27,8 @@ body {
 .img-1 {
   fill: var(--color-orange-50);
   position: absolute;
-  top: -15rem;
-  left: 70rem;
+  top: -14rem;
+  left: 69rem;
   z-index: -2;
 }
 
@@ -43,4 +43,10 @@ body {
 
 .button:hover {
   opacity: 0.9;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
 }

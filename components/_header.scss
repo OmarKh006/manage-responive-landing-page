@@ -21,13 +21,13 @@
 
 .navigation__item {
   cursor: pointer;
-  color: var(--color-blue-950);
+  color: #4e5069;
   transition: var(--transition-timing);
   font-weight: var(--font-weight-medium);
 }
 
 .navigation__item:hover {
-  opacity: 0.8;
+  color: #babbc3;
 }
 
 .header__btn {

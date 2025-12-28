@@ -1,0 +1,22 @@
+.main__intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3.5rem;
+}
+
+.main__header {
+  font-size: 5rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-blue-950);
+}
+
+.main__description {
+  color: #babbc3;
+  line-height: 1.7;
+}
+
+.main__btn {
+  width: fit-content;
+  height: fit-content;
+}
