@@ -1,0 +1,124 @@
+:root {
+  --container-width: 119rem;
+  --gutter: 2rem;
+  --color-orange-400: hsl(12, 88%, 59%);
+  --color-blue-950: hsl(228, 39%, 23%);
+  --color-gray-950: hsl(233, 12%, 13%);
+  --color-orange-50: hsl(13, 100%, 96%);
+  --color-gray-50: hsl(0, 0%, 98%);
+  --font-family-base: "Be Vietnam Pro", sans-serif;
+  --font-size-xs: 1.2rem;
+  --font-size-sm: 1.4rem;
+  --font-size-base: 1.6rem;
+  --font-size-md: 1.8rem;
+  --font-size-lg: 2.4rem;
+  --font-size-xl: 3.2rem;
+  --font-size-2xl: 4rem;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --line-height-base: 1.6;
+  --line-height-heading: 1.2;
+  --container-max-width: 69.375rem;
+  --shadow-sm: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.12);
+  --transition-timing: 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 12rem;
+}
+
+body,
+[type=submit] {
+  font-size: 1.6rem;
+  font-family: var(--font-family-base);
+  overflow-x: hidden;
+  border: 0;
+}
+
+.container {
+  display: grid;
+  row-gap: 11rem;
+  margin: 0 auto;
+  max-width: calc(var(--container-width) + var(--gutter) * 2);
+  padding-inline: var(--gutter);
+}
+
+.button {
+  background-color: var(--color-orange-400);
+  color: var(--color-gray-50);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  transition: var(--transition-timing);
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.header {
+  width: 100%;
+  padding: 3rem 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo {
+  display: inline-block;
+  width: 14.2rem;
+  height: 3.1rem;
+  margin-right: auto;
+}
+
+.navigation__list {
+  display: flex;
+  gap: 2rem;
+}
+
+.navigation__item {
+  cursor: pointer;
+  color: var(--color-blue-950);
+  transition: var(--transition-timing);
+  font-weight: var(--font-weight-medium);
+}
+
+.navigation__item:hover {
+  opacity: 0.8;
+}
+
+.header__btn {
+  margin-left: auto;
+}/*# sourceMappingURL=style.css.map */

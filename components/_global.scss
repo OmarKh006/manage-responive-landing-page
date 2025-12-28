@@ -1,0 +1,33 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 12rem;
+}
+
+body,
+[type="submit"] {
+  font-size: 1.6rem;
+  font-family: var(--font-family-base);
+  overflow-x: hidden;
+  border: 0;
+}
+
+.container {
+  display: grid;
+  row-gap: 11rem;
+  margin: 0 auto;
+  max-width: calc(var(--container-width) + calc(var(--gutter) * 2));
+  padding-inline: var(--gutter);
+}
+
+.button {
+  background-color: var(--color-orange-400);
+  color: var(--color-gray-50);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  transition: var(--transition-timing);
+}
+
+.button:hover {
+  opacity: 0.9;
+}

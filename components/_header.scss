@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  padding: 3rem 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__logo {
+  display: inline-block;
+  width: 14.2rem;
+  height: 3.1rem;
+  margin-right: auto;
+}
+
+.navigation__list {
+  display: flex;
+  gap: 2rem;
+}
+
+.navigation__item {
+  cursor: pointer;
+  color: var(--color-blue-950);
+  transition: var(--transition-timing);
+  font-weight: var(--font-weight-medium);
+}
+
+.navigation__item:hover {
+  opacity: 0.8;
+}
+
+.header__btn {
+  margin-left: auto;
+}
