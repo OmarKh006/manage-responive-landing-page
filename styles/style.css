@@ -60,6 +60,7 @@ html {
 }
 
 body {
+  position: relative;
   font-size: 1.6rem;
   font-family: var(--font-family-base);
   overflow-x: hidden;
@@ -70,10 +71,7 @@ body {
   border: 0;
 }
 
-.container {
-  position: relative;
-  display: grid;
-  row-gap: 6rem;
+.wrapper {
   margin: 0 auto;
   max-width: calc(var(--container-width) + var(--gutter) * 2);
   padding-inline: var(--gutter);
@@ -111,6 +109,9 @@ body {
   width: 100%;
   padding: 6rem 0;
   top: 0;
+}
+
+.header__content {
   display: flex;
   justify-content: center;
   align-items: center;
