@@ -1,0 +1,30 @@
+.about__description {
+  height: fit-content;
+  display: grid;
+  row-gap: 2rem;
+}
+
+.about__list {
+  display: grid;
+  row-gap: 1.5rem;
+}
+
+.list-point {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.point-description {
+  display: grid;
+  row-gap: 1.5rem;
+}
+
+.point-order {
+  width: fit-content;
+  height: fit-content;
+  background-color: var(--color-orange-400);
+  color: white;
+  padding: 0.8rem 2.1rem;
+  border-radius: 3rem;
+  user-select: none;
+}

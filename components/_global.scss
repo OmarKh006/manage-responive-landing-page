@@ -19,9 +19,14 @@ body {
 .img-1 {
   fill: var(--color-orange-50);
   position: absolute;
-  top: -14rem;
-  left: 80rem;
+  top: -15rem;
+  left: 84rem;
   z-index: -2;
+}
+
+.container {
+  display: grid;
+  row-gap: 9rem;
 }
 
 .wrapper {
@@ -47,4 +52,21 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 4rem;
+}
+
+.h2-heading {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-blue-950);
+}
+
+.h3-heading {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-blue-950);
+}
+
+.text {
+  color: #babbc3;
+  line-height: 1.7;
 }
