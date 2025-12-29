@@ -71,18 +71,18 @@ body {
   border: 0;
 }
 
-.wrapper {
-  margin: 0 auto;
-  max-width: calc(var(--container-width) + var(--gutter) * 2);
-  padding-inline: var(--gutter);
-}
-
 .img-1 {
   fill: var(--color-orange-50);
   position: absolute;
   top: -14rem;
-  left: 69rem;
+  left: 80rem;
   z-index: -2;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: calc(var(--container-width) + var(--gutter) * 2);
+  padding-inline: var(--gutter);
 }
 
 .button {
