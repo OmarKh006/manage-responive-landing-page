@@ -1,7 +1,6 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  scroll-padding-top: 12rem;
 }
 
 body {
@@ -36,6 +35,8 @@ body {
 }
 
 .button {
+  width: fit-content;
+  height: fit-content;
   background-color: var(--color-orange-400);
   color: var(--color-gray-50);
   padding: 1.7rem 2.6rem;
