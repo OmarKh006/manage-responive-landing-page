@@ -90,6 +90,49 @@
   color: var(--color-orange-400);
 }
 
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.email-form {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.emailInput {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.email-input {
+  padding: 1.7rem 2.6rem;
+  border-radius: 4rem;
+}
+
+.email-input.error {
+  border: 0.3rem solid red;
+  color: red;
+}
+
+.errorTxt {
+  display: none;
+  margin-left: 2.6rem;
+  color: red;
+  font-size: var(--font-size-xs);
+  font-style: italic;
+}
+
 #submitBtn {
   box-shadow: none;
+}
+
+.copyright {
+  align-self: flex-end;
+}
+
+.copy {
+  font-size: var(--font-size-sm);
 }
