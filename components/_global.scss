@@ -15,12 +15,19 @@ body {
   border: 0;
 }
 
-.img-1 {
-  fill: var(--color-orange-50);
+.img {
   position: absolute;
+  z-index: -2;
+}
+
+.img-1 {
   top: -15rem;
   left: 84rem;
-  z-index: -2;
+}
+
+.img-2 {
+  top: 110rem;
+  left: -55rem;
 }
 
 .container {
